@@ -5,7 +5,7 @@ public class countDigit {
         if(n==0){
             return 0;
         }
-        return fun(n/10) + i;
+        return fun(n/10) + 1;
     }
 
     public static void main(String[] args){

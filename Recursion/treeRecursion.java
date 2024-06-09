@@ -12,15 +12,11 @@ public class treeRecursion {
         }
         // Recursive Case
         for(int i=1; i<=6; i++){
-            curValue += i;
-            // result += i;
-            countDice(curValue,endValue,result+i);
-            curValue -= i;
-            // result -= i;
+            countDice(curValue+i,endValue,result+i);
         }
     }
     public static void main(String[] args) {
         treeRecursion obj = new treeRecursion();
-        countDice(0,20,"");
+        countDice(0,10,"");
     }
 }
