@@ -10,29 +10,8 @@ public class Node{
     }
 }
 
-public class LinkedList {
-    Node head;
-
-    LinkedList(){
-        this.head = null;
-    }
-
-    void insertAtEnd(int data){
-        Node newNode = new Node(data);
-        if(head==null){
-            head = newNode;
-            return;
-        }
-
-        Node curNode = head;
-        
-    }
-    
-    void showData(){
-        Node currNode = head;
-        while(currNode!=null){
-            System.out.print(currNode.data+"-->");
-            currNode = currNode.next;
-        }
-    }
+public class LinkedList{
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }   
 }
